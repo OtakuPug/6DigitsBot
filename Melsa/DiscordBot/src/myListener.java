@@ -16,7 +16,7 @@ public class myListener extends ListenerAdapter
 {
 	 public static void main(String[] args) throws LoginException
 	    {
-	        new JDABuilder("NjM1OTY0NTU1Mzg5OTYwMjIz.Xa_QlQ.CMk4zfJ9qGfQWase3sG-P__bEUg")
+	        new JDABuilder("[Token]")
 	            .addEventListeners(new bot())            
 	            .setActivity(Activity.playing("mhelp"))
 	            
